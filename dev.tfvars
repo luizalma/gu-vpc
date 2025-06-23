@@ -1,0 +1,5 @@
+environment = "dev"
+region      = "us-east-2"
+aws_profile = "adogu-dev"
+vpc_cidr    = "172.26.97.0/24"
+prefix      = "MADOAWSDEV"

@@ -1,0 +1,5 @@
+environment = "qa"
+region      = "us-east-2"
+aws_profile = "adogu-qa"
+vpc_cidr    = "172.26.98.0/24"
+prefix      = "MADOAWSQA"
