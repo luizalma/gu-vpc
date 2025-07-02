@@ -22,3 +22,18 @@ variable "prefix" {
   type        = string
   description = "Prefijo del nombre para tagging de recursos"
 }
+
+variable "public_subnet_cidrs" {
+  type        = list(string)
+  description = "Lista de CIDR blocks para las subnets públicas"
+}
+
+variable "private_subnet_cidrs" {
+  type        = list(string)
+  description = "Lista de CIDR blocks para las subnets privadas"
+}
+
+variable "azs" {
+  type        = list(string)
+  description = "Zonas de disponibilidad a utilizar"
+}
