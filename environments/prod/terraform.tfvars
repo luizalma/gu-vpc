@@ -1,0 +1,5 @@
+environment = "prod"
+region      = "us-east-2"
+aws_profile = "adogu-prod"
+vpc_cidr    = "172.26.99.0/24"
+prefix      = "MADOAWSPROD"
