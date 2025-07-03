@@ -11,6 +11,7 @@ variable "region" {
 variable "aws_profile" {
   type        = string
   description = "Perfil configurado en AWS CLI"
+  default     = null
 }
 
 variable "vpc_cidr" {
